@@ -1,5 +1,5 @@
 function swap(arr, firstIndex, secondIndex) {
-  let temp = arr[firstIndex];
+  const temp = arr[firstIndex];
   arr[firstIndex] = arr[secondIndex];
   arr[secondIndex] = temp;
 }
@@ -14,6 +14,7 @@ function pivot(arr, pivotIndex = 0, endIndex = arr.length - 1) {
   swap(arr, pivotIndex, swapIndex);
   return swapIndex;
 }
+
 function quickSort(arr, left = 0, right = arr.length - 1) {
   if (left < right) {
     let pivotIndex = pivot(arr, left, right);
