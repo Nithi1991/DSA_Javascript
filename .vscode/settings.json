@@ -1,3 +1,8 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "svipas.prettier-plus",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnPaste": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line"
 }
