@@ -4,5 +4,6 @@
   "files.autoSave": "onFocusChange",
   "editor.formatOnPaste": true,
   "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line"
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "fira code, Consolas, 'Courier New', monospace"
 }
