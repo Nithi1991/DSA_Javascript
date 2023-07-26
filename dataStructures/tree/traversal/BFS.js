@@ -49,6 +49,7 @@ class BST {
         return results
     }
 
+
     display() {
         this.inOrderTraversal(this.root);
     }
@@ -68,4 +69,5 @@ mytree.insert(19)
 mytree.insert(20)
 mytree.insert(12)
 mytree.display()
+console.log(mytree.BST_size());
 
