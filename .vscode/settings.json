@@ -1,7 +1,7 @@
 {
   "editor.defaultFormatter": "svipas.prettier-plus",
   "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
   "editor.formatOnPaste": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line",
